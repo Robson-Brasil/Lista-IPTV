@@ -1,0 +1,101 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=auto">
+  <title>ESPRelé - VCS</title>
+  <style type="text/css">
+    body {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #ffffff;
+      margin: 5px;
+      background: #d0d0d0;
+      min-width: 400px;
+      max-width: 600px;
+     }
+    h1 {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(60, 153, 234);
+      background: #787878;
+      border-radius: 7px 7px 0px 0px;
+      padding: 7px 4px 0px 4px;
+      margin: 0px;
+    }
+    h2 {
+      font-size: 12px;
+      text-align: left;
+      color: rgb(60, 153, 234);
+      background: #787878;
+      padding: 4px 8px 4px 8px;
+      margin: 0px;
+      border: #787878 solid 2px;
+    }
+    h3 {
+      font-size: 12px;
+      text-align: left;
+      font-weight: normal;
+      background: #ffffff;
+      padding: 7px;
+      margin: 0px;
+      border: #787878 solid 2px;
+      border-radius: 0px 0px 7px 7px;
+    }
+    table {
+      width: 100%;
+    }
+    th {
+      font-size: 11px;
+      background: rgb(60, 153, 234);
+      text-align: right;
+      padding: 5px;
+      border-radius: 3px 0px 0px 3px;
+      width: 25%;
+    }
+    td {
+      font-size: 11px;
+      background: #787878;
+      padding: 5px;
+      border-radius: 0px 3px 3px 0px;
+    }
+    a {
+      font-size: 12px;
+      color: #ffffff;
+    }
+  </style>
+  <script language="JavaScript">
+    var i = 60;
+    function update() {
+      i--;
+      document.getElementById("seg").innerHTML = i;
+      if (i == 0) {
+        window.location = "/";
+      } else {
+        window.setTimeout("update()", 1000);
+      }
+    }
+  </script>
+</head>
+<body onLoad="update()">
+  <h1>ESPRelé - VCS</h1>
+  <h2>
+    Home |
+    Relé |
+    Arquivos |
+    Configuração |
+    Reiniciar |
+    Log
+  </h2>
+  <h3>
+  <table>
+    <tr>
+      <th>Atualizando versão</th>
+      <td>
+        <b>#vcsInfo#</b><p>
+        Por favor aguarde <span id="seg">60</span> segundos.
+      </td>
+    </tr>
+  </table>
+  </h3>
+</body>
+</html>
