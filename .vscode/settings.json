@@ -1,3 +1,9 @@
 {
   "C_Cpp.errorSquiggles": "Disabled"
+  
+}
+
+{
+  "arduino.path": "C:/Program Files/Arduino IDE"
+
 }
