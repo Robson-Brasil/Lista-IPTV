@@ -1,0 +1,13 @@
+#line 1 "D:\\GitRepositorio\\RFID-e-NFC\\RC522\\Controle-de-Acesso-com-ESP32-RFID-RC222-RELE-LEDs-CARTAOMESTRE\\.vscode\\arduino.json"
+{
+    "port": "COM3",
+    "configuration": "JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32",
+    "programmer": "esptool",
+    "sketch": "Controle-de-Acesso-com-ESP32-RFID-RC222-RELE-LEDs-CARTAOMESTRE.ino",
+    "output": "d:/build",
+    "debugger": "jlink",
+
+    "intelliSenseGen": "global"
+
+}

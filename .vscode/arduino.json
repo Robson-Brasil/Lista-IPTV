@@ -1,12 +1,10 @@
 {
-    "configuration": "JTAGAdapter=external,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
-    "board": "esp32:esp32:esp32",
     "port": "COM3",
+    "configuration": "JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32",
     "programmer": "esptool",
-    "sketch": "Projeto-ESP32-MQTT-DHT22-Reles-WebServer-NodeRed-HomeAssistant\\Projeto-ESP32-MQTT-DHT22-Reles-WebServer-NodeRed-HomeAssistant\\Projeto-ESP32-MQTT-DHT22-Reles-WebServer-NodeRed-HomeAssistant.ino",
-    "C_Cpp.errorSquiggles": "Disabled",
-    "arduino.commandPath": "Arduino IDE.exe",
-    "arduino.path": "C:/Program Files/Arduino IDE/Arduino IDE.exe",
-    "arduino.openPDEFiletype": true,
-    "outDir": "build"
+    "output": "D:/GitRepositorio",
+    "debugger": "jlink",
+    "intelliSenseGen": "global",
+    "sketch": "RFID-e-NFC\\RC522\\Controle-de-Acesso-com-ESP32-RFID-RC222-RELE-LEDs-CARTAOMESTRE\\Controle-de-Acesso-com-ESP32-RFID-RC222-RELE-LEDs-CARTAOMESTRE.ino"
 }

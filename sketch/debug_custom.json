@@ -1,0 +1,20 @@
+#line 1 "D:\\GitRepositorio\\RFID-e-NFC\\RC522\\Controle-de-Acesso-com-ESP32-RFID-RC222-RELE-LEDs-CARTAOMESTRE\\debug_custom.json"
+{
+	"name":"Arduino on ESP32",
+	"toolchainPrefix":"xtensa-esp32-elf",
+	"svdFile":"esp32.svd",
+	"request":"attach",
+	"postAttachCommands":[
+		"set remote hardware-watchpoint-limit 2",
+		"monitor reset halt",
+		"monitor gdb_sync",
+		"thb setup",
+		"c"
+	],
+	"overrideRestartCommands":[
+		"monitor reset halt",
+		"monitor gdb_sync",
+		"thb setup",
+		"c"
+	]
+}
